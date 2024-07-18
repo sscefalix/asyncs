@@ -1,0 +1,6 @@
+uvicorn~=0.25.0
+fastapi~=0.111.0
+starlette~=0.37.2
+Jinja2~=3.1.4
+aiohttp~=3.9.5
+setuptools~=70.0.0
