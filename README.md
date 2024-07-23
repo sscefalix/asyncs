@@ -33,7 +33,7 @@ async def index(request: Request) -> JSONResponse:
 @app.get("/index")
 async def index(request: Request) -> HTMLResponse:
     with open("index.html", encoding="utf-8") as f:
-        content = await f.read()
+        content = f.read()
 
         return HTMLResponse(status_code=200, content=content, variables={
             "request": request,
